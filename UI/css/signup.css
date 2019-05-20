@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,700');
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Rubik'; 
+    background: #F1F2F3;  
+}
+header {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background-color: blue;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+    background: #f1f2f3;
+}
+form{
+    box-sizing: border-box;
+    width: 500px;
+    margin: auto;
+    box-shadow: 2px 4px 8px 4px rgba(0, 0, 0, 0.1);
+    padding: 30px 30px;
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+#logo{
+    margin-bottom: 30px;
+    width: 100%;
+    text-align: center;
+}
+p{
+    font-size: 25px;
+    color: #6271D2;
+    
+}
+input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    height: 30px;
+    width: 100%;
+    outline: none;
+    border: 0;
+    padding-left: 10px;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+label{
+    display: block;
+}
+button{
+    padding: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 80%;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    color: #FFFFFF;
+    background: #6271D2;
+    border-radius: 4px;
+    transition: 0.5s ease;
+}
+button:hover{
+    box-shadow: 2px 4px 8px 4px rgba(0, 0, 0, 0.2)
+}
+@media(max-width: 568px) {
+    form{
+        width: 400px;
+        margin-bottom: 20px;
+    }
+}
+@media(max-width: 425px) {
+    form{
+        width: 300px;
+        margin-bottom: 20px;
+    }
+}
